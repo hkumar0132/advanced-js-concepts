@@ -1,13 +1,13 @@
 const debounce = (fn, delay) => {
   let timeoutID;
-  return function() {
+  return function(...args) {
 
     if(timeoutID) {
       clearTimeout(timeoutID);
     }
 
     timeoutID = setTimeout(() => {
-      fn();
+      fn(...args);
     }, delay);
   }
 }
