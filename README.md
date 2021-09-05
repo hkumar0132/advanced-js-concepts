@@ -7,5 +7,3 @@ This repository concepts advanced front-end concepts with javascript
 4. A json tree view with add/delete/edit/move options
 5. Drag and drop to create a UMI diagram
 6. Gmail folder structure
-
-https://www.grapecity.com/wijmo/flexgrid-javascript-data-grid
