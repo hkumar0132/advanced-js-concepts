@@ -1,6 +1,6 @@
 const debounce = (fn, delay) => {
   let timeoutID;
-  return function(...args) {
+  return (...args) => {
 
     if(timeoutID) {
       clearTimeout(timeoutID);
