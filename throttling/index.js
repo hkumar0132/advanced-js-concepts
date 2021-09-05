@@ -3,7 +3,6 @@ const throttle = (fn, delay) => {
   let flag = true;
   return (...args) => {
     if(flag) {
-      console.log((new Date()).getTime());
       fn(...args);
       flag = false;
 
